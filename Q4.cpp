@@ -41,6 +41,5 @@ int main() {
 	}
 
 	int difference = largest - smallest;
-	cout << "Difference = ";
-	cout << difference;
+	cout << "Difference = " << difference;
 }

@@ -14,6 +14,5 @@ int main() {
 		sum += i*i;
 	}
 
-	cout << "Sum of Squares = ";
-	cout << sum;
+	cout << "Sum of Squares = " << sum;
 }

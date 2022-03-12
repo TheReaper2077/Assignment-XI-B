@@ -21,6 +21,5 @@ int main() {
 	cout << "Enter Decimal Number: ";
 	cin >> num;
 
-	cout << "Binary Number = ";
-	cout << find_binary(num);
+	cout << "Binary Number = " << find_binary(num);
 }

@@ -15,6 +15,5 @@ int main() {
 		len++;
 	}
 
-	cout << "Length = ";
-	cout << len;
+	cout << "Length = " << len;
 }

@@ -15,6 +15,5 @@ int main() {
 		num /= 10;
 	}
 
-	cout << "Sum of Digits = ";
-	cout << sum << '\n';
+	cout << "Sum of Digits = " << sum << '\n';
 }
