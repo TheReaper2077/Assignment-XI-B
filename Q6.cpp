@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main(int, char**) {
+int main() {
 	double a, b, c, res1 = 0, res2 = 0, real = 0, imaginary = 0;
 	cin >> a >> b >> c;
 

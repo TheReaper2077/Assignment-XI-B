@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(int, char**) {
+int main() {
 	int n, sum = 0;
 
 	cin >> n;

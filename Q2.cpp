@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(int, char**) {
+int main() {
 	char str[20];
 	int len = 0;
 

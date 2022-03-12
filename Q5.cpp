@@ -15,7 +15,7 @@ int find_binary(int num) {
 	return res;
 }
 
-int main(int, char**) {
+int main() {
 	int num;
 
 	cin >> num;

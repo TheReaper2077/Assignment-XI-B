@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(int, char**) {
+int main() {
 	int a, b, c, largest, smallest;
 
 	cin >> a >> b >> c;
