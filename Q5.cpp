@@ -18,7 +18,9 @@ int find_binary(int num) {
 int main() {
 	int num;
 
+	cout << "Enter Decimal Number: ";
 	cin >> num;
 
+	cout << "Binary Number = ";
 	cout << find_binary(num);
 }

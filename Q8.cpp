@@ -43,5 +43,5 @@ int main() {
 			break;
 	}
 
-	cout << "Area: " << area;
+	cout << "Area = " << area;
 }

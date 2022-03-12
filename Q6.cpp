@@ -7,6 +7,8 @@ using namespace std;
 
 int main() {
 	double a, b, c, res1 = 0, res2 = 0, real = 0, imaginary = 0;
+
+	cout << "Enter the coefficents a, b, c";
 	cin >> a >> b >> c;
 
 	double discriminant = b*b - 4*a*c;

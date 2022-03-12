@@ -7,6 +7,7 @@ using namespace std;
 int main() {
     int num, sum = 0;
 
+	cout << "Enter Number: ";
 	cin >> num;
 
 	while (num) {
@@ -14,5 +15,6 @@ int main() {
 		num /= 10;
 	}
 
+	cout << "Sum of Digits = ";
 	cout << sum << '\n';
 }

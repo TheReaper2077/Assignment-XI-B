@@ -7,6 +7,7 @@ using namespace std;
 int main() {
 	int a, b, c, largest, smallest;
 
+	cout << "Enter 3 numbers";
 	cin >> a >> b >> c;
 
 	// Find Largest
@@ -40,5 +41,6 @@ int main() {
 	}
 
 	int difference = largest - smallest;
+	cout << "Difference = ";
 	cout << difference;
 }
