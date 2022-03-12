@@ -1,4 +1,4 @@
-// Find all prime numbers below 100.
+// display prime numbers between 100 and 200. (Use a function to check whether the number is prime or not. If it is prime the function should return 1, otherwise 0)
 
 #include <iostream>
 
@@ -16,10 +16,11 @@ int is_prime(int num) {
 	return 1;
 }
 
-int main(int, char**) {
-	for (int i = 1; i < 100; i++) {
+int main() {
+	for (int i = 100; i <= 200; i++) {
 		if (is_prime(i)) {
 			cout << i << '\n';
 		}
 	}
 }
+
