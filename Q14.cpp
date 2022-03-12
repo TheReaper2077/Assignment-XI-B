@@ -32,7 +32,7 @@ int main() {
 		}
 	}
 
-	if (check) cout << "Addmision Number is Present";
+	if (present) cout << "Addmision Number is Present";
 	else cout << "Addmision Number is Not Present";
 }
 
