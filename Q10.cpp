@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int palindrome(int num) {
+int reverse(int num) {
 	int rev = 0;
 
 	while (num) {
@@ -23,7 +23,7 @@ int main() {
 	cin >> num;
 
 	for (int i = 1; i <= num; i++) {
-		if (palindrome(i) == i) {
+		if (reverse(i) == i) {
 			cout << i << '\n';
 		}
 	}
