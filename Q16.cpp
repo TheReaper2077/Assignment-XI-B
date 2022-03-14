@@ -13,7 +13,8 @@ int main() {
 	cout << "Enter The numbers\n";
 	for (int y = 0; y < n; y++) {
 		for (int x = 0; x < n; x++) {
-			cin >> matrix[y][x];
+			// cin >> matrix[y][x];
+			matrix[y][x] = (int)rand()/1000;
 		}
 	}
 
@@ -31,6 +32,14 @@ int main() {
 		sum += matrix[i][i];
 	}
 
-	cout << "Sum of Diagonal Elements = " << sum;
+	cout << "Sum of Leading Diagonal Elements = " << sum << '\n';
+
+	sum = 0;
+
+	for (int i = 0; i < n; i++) {
+		sum += matrix[i][n - i - 1];
+	}
+
+	cout << "Sum of Off Diagonal Elements = " << sum << '\n';
 }
 
