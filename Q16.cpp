@@ -13,8 +13,7 @@ int main() {
 	cout << "Enter The numbers\n";
 	for (int y = 0; y < n; y++) {
 		for (int x = 0; x < n; x++) {
-			// cin >> matrix[y][x];
-			matrix[y][x] = (int)rand()/1000;
+			cin >> matrix[y][x];
 		}
 	}
 
